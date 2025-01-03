@@ -1,0 +1,392 @@
+@media only screen and (min-width:1025px) {
+
+    .mobileHeader,
+    .mobile-menu {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width:1140px) {
+    .breaklineMD {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:1024px) {
+    .footer {
+        padding: 80px 0 50px; 
+    }
+    header {
+        display: none;
+    }
+
+    .px-5 {
+        padding: 0 1rem;
+    }
+
+    .left-content {
+        padding-right: 0rem;
+        margin-bottom: 3rem;
+    }
+
+    .hero-container {
+        padding: 0 1rem;
+    }
+
+    .main-heading {
+        font-size: 28px;
+        margin-bottom: 1.5rem;
+    }
+
+    .row.logos {
+        justify-content: center;
+    }
+
+    .logos .col-md-2 {
+        padding: 0 15px;
+    }
+
+    .logos img {
+        max-width: 7rem;
+    }
+
+    .content-box {
+        padding-right: 0rem;
+    }
+
+    .h2-title {
+        font-size: 24px;
+    }
+
+    .mb-3 {
+        margin-bottom: 1rem;
+    }
+
+    .game-developer .game-col-1,
+    .md-mb {
+        margin-bottom: 2.5rem;
+    }
+    .topservice .md-mb {
+        margin-bottom: 1rem;
+                padding-right: 15px;
+    }
+
+    .m-mb {
+        margin-bottom: 2rem;
+    }
+
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+    }
+
+    .bottom-content {
+        padding: 20px;
+    }
+
+    .major-logo {
+        width: 4rem;
+    }
+
+    .card-box.organizer h2 {
+        font-size: 20px;
+    }
+
+    .organizer.counter-box .col-md-12 {
+        padding: 0 10px;
+    }
+
+    .experties .col-md-6 {
+        padding-right: 15px;
+    }
+
+   
+
+    .experties .counter-sec {
+        padding: 40px 20px;
+    }
+
+    .btn-primary,
+    .btn-secondary {
+        font-size: 14px;
+    }
+
+    .topservice .content-box {
+        margin-right: 0;
+        padding: 30px;
+        padding-left: 35px;
+    }
+
+    .left-col-f {
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 0;
+    }
+
+    .terms-link {
+        margin-left: 0;
+    }
+
+    .right-col {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .footer-row .col-md-3 {
+        width: 100%;
+    }
+
+    .footer-row .col-md-2 {
+        width: 50%;
+    }
+
+    .footer-logo {
+        width: 15rem;
+        display: block;
+    }
+
+    .h5title {
+        font-size: 16px;
+    }
+
+    .organizer.counter-box .h3-title {
+        font-size: 20px;
+    }
+
+    .hero-wrap--content {
+        margin-top: 3rem;
+    }
+
+    /* mobile header */
+    .mobileHeader {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #171c26cc;
+        color: white;
+        position: relative;
+        z-index: 1000;
+        -webkit-backdrop-filter: blur(20px);
+        backdrop-filter: blur(20px);
+    }
+
+    .mobileHeader.fixed {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .mobileHeader .logo {
+        height: 30px;
+    }
+
+    .breadcrumb-btn {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 18px;
+        cursor: pointer;
+    }
+
+    .mobile-menu {
+        position: fixed;
+        top: 7%;
+        left: 0;
+        width: 100%;
+        height: 93%;
+        background-color: #1F2633;
+        color: white;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+        z-index: 2;
+    }
+
+    .mobile-menu.visible {
+        transform: translateX(0);
+    }
+
+    .close-btn {
+        background: none;
+        border: none;
+        color: white;
+        font-size: 24px;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+
+    .menu-list {
+        list-style: none;
+        padding: 20px;
+    }
+
+    .menu-list li {
+        margin: 15px 0;
+        font-size: 18px;
+        cursor: pointer;
+        font-weight: 500;
+    }
+
+    .menu-footer {
+        position: absolute;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .menu-btn {
+        padding: 10px;
+        font-size: 16px;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+        font-weight: 500;
+        background: var(--ac-secondary);
+        color: #fff;
+
+    }
+
+    .menu-btn.primary {
+        background-color: var(--ac-primary);
+        color: #fff;
+    }
+
+}
+
+@media only screen and (max-width:768px) {
+    .hero-container {
+        text-align: center;
+    }
+
+    .secondbtn {
+        display: inline-block;
+    }
+
+    .main-heading {
+        font-size: 24px;
+        margin-bottom: 1.2rem;
+    }
+
+    .row.logos {
+        justify-content: center;
+        gap: 0.5rem;
+    }
+
+    .logos .col-md-2 {
+        padding: 0 5px;
+    }
+
+    .logos img {
+        max-width: 4rem;
+    }
+
+    .hero-container .row.mb-5 {
+        margin-bottom: 1rem;
+    }
+
+    .ptop100 {
+        padding-top: 65px;
+    }
+
+    .pb50 {
+        padding-bottom: 0px;
+    }
+
+    .game-service,
+    .organizer-box, .started-service,
+    .brands-services, .dev-service {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .card-box {
+        margin-top: 0;
+    }
+
+    .pb100 {
+        padding-bottom: 50px;
+    }
+
+    .brand-cat .col-md-4 {
+        padding: 0;
+    }
+    .brand-cat {
+        margin-top: 2rem;
+        padding-top: 2rem;
+    }
+    .h2-title {
+        font-size: 21px;
+    }
+    .h2-title br{
+       display: none;
+    }
+    .experties .content-box.enterprise-services {
+        flex-direction: row;
+    }
+    .counter-box .h3-title {
+        font-size: 16px;
+    }
+    .btn-primary.me-3{
+        margin-right: 0.5rem;
+    }
+    .organizer.counter-box .h3-title {
+        font-size: 18px;
+    }
+    .organizer.counter-box p{
+        font-size: 14px;
+    }
+    .dev-btn .btn-primary, .dev-btn .btn-secondary {
+        font-size: 12px;
+        display: inline-block;
+    }
+    .mini-footer a, .mini-footer p {
+        font-size: 12px;
+    }
+    .mb-m2{
+        margin-bottom: 2rem;
+    }
+    .breakline{
+        display: none;
+    }
+    .hero-container .btn-primary{
+        margin-right: 0.8rem;
+    }
+    .experties .content-box {
+        gap: 0;
+    }
+
+  
+}
+
+@media only screen and (min-width: 635px) and (max-width: 768px) {
+    .hero-container .heroimg{
+        padding: 0 5rem;
+      }
+      .main-heading {
+          font-size: 32px; 
+      }
+    
+}
+@media only screen and (max-width: 475px) {
+    .experties .content-box {
+        gap: 30px;
+        flex-direction: column;
+    }
+      .m-mb {
+        margin-bottom: 2rem;
+    }
+    .pr-20{
+        padding-right: 0;
+    }
+    .experties .col-md-6 {
+        padding-right: 0;
+    }
+}
